@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Jetro</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<!--HEADER-->
+	<header class="container">
+		<!--NAVBAR-->
+		<nav class="navbar navbar-default">
+			<div class="container">
+				<!-- NAVBAR MOBILE -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<h1>
+							<a class="navbar-brand" href="#">Jet<span>ro</span></a>
+						</h1>
+				</div>
+
+				<!-- NAVBAR DESKTOP -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="active">
+							<a href="#">Home</a>
+						</li>
+						<li>
+							<a href="#">About Us</a>
+						</li>
+						<li>
+							<a href="#">Blog</a>
+						</li>
+						<li>
+							<a href="#">Portfolio</a>
+						</li>
+						<li>
+							<a href="#">Contact Us</a>
+						</li>
+					</ul>
+				</div>
+				<!-- /.navbar-collapse -->
+			</div>
+			<!-- /.container-fluid -->
+		</nav>
+
+		<!-- SLIDER -->
+		<section id="slider" class="container-fluid">
+			<div id="background-strip"></div>
+			<div class="container">
+				<div id="carousel-id" class="carousel slide" data-ride="carousel">
+					<div class="carousel-inner">
+						<div class="item">
+							<img src="pict/pict-slide1.jpg" alt="">
+							<section class="carousel-caption">
+								<h1>Slide 1</h1>
+								<p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
+							</section>
+						</div>
+						<div class="item">
+							<img alt="Second slide" src="pict/pict-slide2.jpg">
+							<section class="carousel-caption">
+								<h1>Slide2</h1>
+								<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+							</section>
+						</div>
+						<div class="item">
+							<img src="pict/pict-slide1.jpg" alt="">
+							<section class="carousel-caption">
+								<h1>Slide 3</h1>
+								<p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
+							</section>
+						</div>
+						<div class="item">
+							<img src="pict/pict-slide1.jpg" alt="">
+							<section class="carousel-caption">
+								<h1>Slide 4</h1>
+								<p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
+							</section>
+						</div>
+						<div class="item">
+							<img src="pict/pict-slide1.jpg" alt="">
+							<section class="carousel-caption">
+								<h1>Slide 5</h1>
+								<p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
+							</section>
+						</div>
+						<div class="item active">
+							<img alt="Second slide" src="pict/pict-slide2.jpg">
+							<section class="carousel-caption">
+								<h1>slide6</h1>
+								<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+							</section>
+						</div>
+					</div>
+
+					<ol class="carousel-indicators">
+						<li data-target="#carousel-id" data-slide-to="0" class="active">
+							<img src="pict/pict-preview1.jpg" alt="">
+						</li>
+						<li data-target="#carousel-id" data-slide-to="1" class="">
+							<img src="pict/pict-preview2.jpg" alt="">
+						</li>
+						<li data-target="#carousel-id" data-slide-to="2" class="">
+							<img src="pict/pict-preview1.jpg" alt="">
+						</li>
+						<li data-target="#carousel-id" data-slide-to="3" class="">
+							<img src="pict/pict-preview1.jpg" alt="">
+						</li>
+						<li data-target="#carousel-id" data-slide-to="4" class="">
+							<img src="pict/pict-preview1.jpg" alt="">
+						</li>
+						<li data-target="#carousel-id" data-slide-to="5" class="">
+							<img src="pict/pict-preview2.jpg" alt="">
+						</li>
+					</ol>
+					<!--            Не забыть проставить иконки-->
+					<a class="left carousel-control" href="#carousel-id" data-slide="prev"><span class="glyphicon"><img src="" class="sprite icon-prev" alt=""></span></a>
+					<a class="right carousel-control" href="#carousel-id" data-slide="next"><span class="glyphicon"><img src="" class="sprite icon-next" alt=""></span></a>
+				</div>
+			</div>
+		</section>
+	</header>
+
+	<!--		INTRO ARTICLE-->
+	<section id="intro-articles" class="container">
+		<div class="row">
+			<article class="col-lg-4">
+				<h1>Check out mylatest portfolio items</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio eum hic laboriosam odit eius dolorem alias sed quod necessitatibus accusantium totam explicabo aut, ad impedit placeat architecto nisi aspernatur cumque?</p>
+				<button>more</button>
+			</article>
+			<article class="col-lg-4">
+				<h1>Offer top notch quality work & servise</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis quod libero architecto voluptates quas dolores assumenda quibusdam vitae, soluta illo. Tenetur quos qui recusandae dolor corporis nostrum consequuntur, neque aut.</p>
+				<button>more</button>
+			</article>
+			<article class="col-lg-4">
+				<h1>Check out mylatest portfolio items</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id non in obcaecati vel dolorum. Eum modi totam molestiae nihil cupiditate officia, tempore architecto dolorem quo debitis nam itaque amet repellendus!</p>
+				<button>more</button>
+			</article>
+		</div>
+	</section>
+
+	<!--		RECENT WORKS-->
+	<aside id="recent-works" class="container">
+		<div class="row">
+
+			<div class="bg-gray-stripe">
+				<h1>Recent works</h1>
+			</div>
+
+			<div class="row" id="recent-items">
+				<section class="col-lg-3 col-md-3 col-sm-6 recent">
+					<a href="#"><img src="pict/pict-work1.jpg" alt="">
+						<div>
+							<h2>Character design</h2>
+							<div class="date">June 15, 2012</div>
+						</div>
+					</a>
+				</section>
+				<section class="col-lg-3 col-md-3 col-sm-6 recent">
+					<a href="#"><img src="pict/pict-work2.jpg" alt="">
+						<div>
+							<h2>Brochure design</h2>
+							<div class="date">June 15, 2012</div>
+						</div>
+					</a>
+				</section>
+				<section class="col-lg-3 col-md-3 col-sm-6 recent">
+					<a href="#"><img src="pict/pict-work3.jpg" alt="">
+						<div>
+							<h2>Social media buttons</h2>
+							<div class="date">June 15, 2012</div>
+						</div>
+					</a>
+				</section>
+				<section class="col-lg-3 col-md-3 col-sm-6 recent">
+					<a href="#"><img src="pict/pict-work4.jpg" alt="">
+						<div>
+							<h2>10 amazing websites</h2>
+							<div class="date">June 15, 2012</div>
+						</div>
+					</a>
+				</section>
+			</div>
+		</div>
+	</aside>
+
+	<!--		FOOTER-->
+	<footer class="container-fluid">
+		<section class="container">
+			<div class="row">
+				<section class="col-lg-4">
+					<h1>About Jetro</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, placeat.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, sequi.</p>
+				</section>
+				<section class="col-lg-4" id="twitter">
+					<h1>Twitter widjet</h1>
+					<p><span><span>Lorem ipsum</span></span> dolor sit amet, consectetur adipisicing elit. Molestias, placeat.</p>
+					<p><span>Lorem ipsum</span> dolor sit amet, consectetur adipisicing elit. Repellendus, sequi.</p>
+					<p><span>Lorem ipsum</span> dolor sit amet, consectetur adipisicing elit. Repellendus, sequi.</p>
+				</section>
+				<section class="col-lg-4">
+					<h1>Contact us</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, placeat.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, sequi.</p>
+					<div class="social-block">
+						<a href="" class="social-fb"></a>
+						<a href="" class="social-tw"></a>
+						<a href="" class="social-ma"></a>
+						<a href="" class="social-rs"></a>
+						<a href="" class="social-vi"></a>
+					</div>
+				</section>
+			</div>
+		</section>
+	</footer>
+</body>
+
+</html>
